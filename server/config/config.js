@@ -10,9 +10,8 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
 // =================================
 // Vencimiento del token
-// 60segs * 60mins * 24hrs * 30dias
 // =================================
-process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
+process.env.CADUCIDAD_TOKEN = '48h';
 
 // =================================
 // SEED (Semilla)
